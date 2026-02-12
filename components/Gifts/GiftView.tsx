@@ -85,8 +85,8 @@ const GiftView: React.FC<Props> = ({ type, onBack }) => {
           <div className={`w-48 h-48 rounded-full border-4 border-white/50 flex items-center justify-center mb-6 overflow-hidden transition-transform duration-[8000ms] linear infinite ${isPlaying ? 'rotate-[360deg]' : ''}`}>
             <img src={PLAYER_COVER} alt="Cover" className="w-full h-full object-cover" />
           </div>
-          <h3 className="text-2xl font-bold mb-1 tracking-wide">Наша Особенная Песня</h3>
-          <p className="text-white/70 mb-8 font-light italic">Музыка наших сердец</p>
+          <h3 className="text-2xl font-bold mb-1 tracking-wide">Тёмно-оранжевый закат</h3>
+          <p className="text-white/70 mb-8 font-light italic">Даже когда всё плохо, мы вместе</p>
           <div className="flex items-center gap-8">
             <SkipBack className="cursor-pointer hover:scale-125 transition active:scale-90" />
             <button 
