@@ -15,12 +15,12 @@ const ART_TEXT = `Ты самая прекрасная девушка на вс�
 const DREAMS_TEXT = `Я хочу провести с тобой всю жизнь. Я хочу жить с тобой в большом доме, хочу посетить все интересные уголки планеты. Когда мы состаримся, ничего не изменится, я буду жить тобой, а ты надеюсь мной! Ты мое будущее...`;
 
 // Ссылки на изображения (заглушки)
-const ART_IMAGE = "/public/val1.png";
-const PLAYER_COVER = "/public/pap.jpg";
-const DREAMS_IMAGE = "/public/val2.png";
+const ART_IMAGE = "/val1.png";
+const PLAYER_COVER = "/pap.jpg";
+const DREAMS_IMAGE = "/val2.png";
 
 // Ссылка на аудио (заглушка - можно заменить на любой прямой URL mp3)
-const AUDIO_SRC = "/public/pap.mp3";
+const AUDIO_SRC = "/pap.mp3";
 
 const GiftView: React.FC<Props> = ({ type, onBack }) => {
   const [isPlaying, setIsPlaying] = useState(false);
